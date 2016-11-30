@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Little Coffee Shop</string>
+    <string name="littleCoffeeShop">Little Coffee Shop</string>
+    <string name="need_button">I need a Coffee</string>
+    <string name="hint">Your name</string>
+    <string name="order_button">Order</string>
+    <string name="this_app">This app was created by SIMONINI Thomas. All rights reserved</string>
+    <string name="welcome">Welcome!</string>
+    <string name="coffee">Coffee</string>
+    <string name="toppings_title">Choose your toppings</string>
+    <string name="cake_title">Choose your cake</string>
+    <string name="chocolate">Chocolate</string>
+    <string name="cream">Cream</string>
+    <string name="caramel">Caramel</string>
+    <string name="brownie_checkbox">Brownie</string>
+    <string name="cheeseCake_checkbox">Cheese Cake</string>
+    <string name="carrotCake_checkbox">Carrot Cake</string>
+    <string name="it_will">It will be ready in: </string>
+    <string name="total">For a total of: </string>
+</resources>

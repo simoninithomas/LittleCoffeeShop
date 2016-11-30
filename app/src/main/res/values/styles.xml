@@ -1,0 +1,19 @@
+<resources>
+        <!-- your theme inherits from the material theme -->
+        <style name="AppThemeMaterial" parent="android:Theme.Material.NoActionBar">
+            <!-- theme customizations -->
+
+
+
+
+            <item name="android:colorPrimary">@color/colorPrimary</item>
+            <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+            <item name="android:colorAccent">@color/colorAccent</item>
+            <item name="android:colorButtonNormal">@color/colorAccent</item>
+            <item name="android:windowBackground">@color/colorWindowBackground</item>
+
+        </style>
+
+
+</resources>
+

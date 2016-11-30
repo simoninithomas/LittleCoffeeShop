@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    tools:context="com.littlecoffeeshop.simonini.littlecoffeeshop.HomeActivity">
+
+
+        <ImageView
+            android:id="@+id/coffee_shop_image"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo"
+            />
+
+        <TextView
+            android:paddingTop="15dp"
+            android:id="@+id/coffee_shop_text_view"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Little Coffee Shop"
+            android:textAppearance="?android:textAppearanceLarge"
+            />
+
+        <TextView
+            android:paddingTop="10dp"
+            android:id="@+id/customerName_text_view"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            />
+
+        <TextView
+            android:paddingTop="5dp"
+            android:id="@+id/coffee_shop_text_view"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="We are preparing your order"
+            android:textAppearance="?android:textAppearanceLarge"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/order_recap_text_view"
+            android:textSize="30dp"
+            />
+        <TextView
+            android:paddingTop="5dp"
+            android:id="@+id/for_a_total_text_view"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/total"
+            android:textAppearance="?android:textAppearanceLarge"
+            />
+        <TextView
+            android:paddingTop="5dp"
+            android:id="@+id/total_text_view"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            />
+
+
+        <TextView
+            android:paddingTop="5dp"
+            android:id="@+id/it_will_view"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/it_will"
+            android:textAppearance="?android:textAppearanceLarge"
+            />
+        <TextView
+            android:paddingTop="5dp"
+            android:id="@+id/total_time_text_view"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="100dp"
+            />
+
+    </LinearLayout>
+</ScrollView>

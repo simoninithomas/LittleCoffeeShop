@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.littlecoffeeshop.simonini.littlecoffeeshop.OrderActivity">
+
+    <EditText
+        android:id="@+id/customerName_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint"
+        android:inputType="text"/>
+
+    <TextView
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textAllCaps="true"
+        android:text="@string/toppings_title" />
+
+    <CheckBox
+        android:id="@+id/cream_checkbox"
+        android:padding="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cream"
+        android:textAppearance="?android:textAppearanceLarge"/>
+
+    <CheckBox
+        android:id="@+id/chocolate_checkbox"
+        android:padding="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chocolate"
+        android:textAppearance="?android:textAppearanceLarge"/>
+
+    <CheckBox
+        android:id="@+id/caramel_checkbox"
+        android:padding="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/caramel"
+        android:textAppearance="?android:textAppearanceLarge"/>
+
+    <TextView
+        android:padding="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textAllCaps="true"
+        android:text="@string/cake_title" />
+
+    <CheckBox
+        android:id="@+id/brownie_checkbox"
+        android:padding="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/brownie_checkbox"
+        android:textAppearance="?android:textAppearanceLarge"/>
+
+    <CheckBox
+        android:id="@+id/cheeseCake_checkbox"
+        android:padding="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cheeseCake_checkbox"
+        android:textAppearance="?android:textAppearanceLarge"/>
+
+    <CheckBox
+        android:id="@+id/carrotCake_checkbox"
+        android:padding="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/carrotCake_checkbox"
+        android:textAppearance="?android:textAppearanceLarge"/>
+
+
+    <Button
+        android:id="@+id/order_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/order_button"
+        />
+
+
+
+</LinearLayout>
+</ScrollView>
